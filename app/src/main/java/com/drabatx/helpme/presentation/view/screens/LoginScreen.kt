@@ -11,7 +11,6 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.wrapContentHeight
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material3.Button
-import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
@@ -25,7 +24,6 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.PasswordVisualTransformation
-import androidx.compose.ui.text.input.VisualTransformation
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
@@ -85,7 +83,10 @@ fun LoginScreen(navController: NavController) {
                     visualTransformation = PasswordVisualTransformation()
                 )
                 Spacer(modifier = Modifier.height(margin_medium))
-                Button(onClick = { navController.navigate(AppScreen.LoginScreen.route) }, modifier = Modifier.fillMaxWidth()) {
+                Button(
+                    onClick = { navController.navigate(AppScreen.MainScreen.route) },
+                    modifier = Modifier.fillMaxWidth()
+                ) {
                     Text(text = stringResource(R.string.action_login))
                 }
                 Spacer(modifier = Modifier.height(margin_small))

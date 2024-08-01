@@ -10,7 +10,8 @@
     <string name="label_repeat_password">Repetir contraseña</string>
 
 <!--    Screens-->
-    <string name="screen_menu">menu_options</string>
+    <string name="screen_menu">Menu Options Screen</string>
     <string name="screen_login">Login Screen</string>
-    <string name="screen_sign_in">registro_screen</string>
+    <string name="screen_sign_in">Registro Screen</string>
+    <string name="screen_main">Main Screen</string>
 </resources>

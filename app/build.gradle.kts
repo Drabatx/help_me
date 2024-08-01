@@ -93,5 +93,5 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.paging.compose)
     implementation(libs.hilt.navigation.compose)
-    implementation("com.pierfrancescosoffritti.androidyoutubeplayer:core:11.1.0")
+    implementation(libs.androidx.material)
 }

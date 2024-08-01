@@ -5,6 +5,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.drabatx.helpme.presentation.view.screens.LoginScreen
+import com.drabatx.helpme.presentation.view.screens.MainScreen
 import com.drabatx.helpme.presentation.view.screens.MenuScreen
 import com.drabatx.helpme.presentation.view.screens.SignInScreen
 
@@ -20,6 +21,9 @@ fun AppNavigation(){
         }
         composable(route = AppScreen.SignInScreen.route){
             SignInScreen(navController)
+        }
+        composable(route = AppScreen.MainScreen.route){
+            MainScreen(navController)
         }
 
     }
