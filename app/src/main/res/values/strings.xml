@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HelpMe</string>
+    <string name="description_images">Descripción de la imagen</string>
+    <string name="action_login">Iniciar sesión</string>
+    <string name="action_sign_in">Registrarse</string>
+    <string name="label_email">Correo electrónico</string>
+    <string name="label_password">Contraseña</string>
+    <string name="action_forget_password">¿Olvide mi contraseña?</string>
+    <string name="label_username">Nombre de Usuario</string>
+    <string name="label_repeat_password">Repetir contraseña</string>
+
+<!--    Screens-->
+    <string name="screen_menu">menu_options</string>
+    <string name="screen_login">Login Screen</string>
+    <string name="screen_sign_in">registro_screen</string>
+</resources>
