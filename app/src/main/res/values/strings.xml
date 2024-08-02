@@ -14,4 +14,9 @@
     <string name="screen_login">Login Screen</string>
     <string name="screen_sign_in">Registro Screen</string>
     <string name="screen_main">Main Screen</string>
+    <string name="screen_request">Request Screen</string>
+    <string name="screen_history_alarms">History Alarms Screen</string>
+    <string name="bottom_menu_option_request">Solicitudes</string>
+    <string name="bottom_menu_option_history_alarms">Historial Alarma</string>
+    <string name="bottom_menu_option_main">Alarma</string>
 </resources>
